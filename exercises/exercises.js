@@ -1,16 +1,17 @@
 // Question 1
-const log = () => {
-
+const log = (object) => {
+  console.log(Object.keys(object).length);
 }
 
 // Question 2
 const totalProps = () => {
 
+  console.log(Object.keys(object1).length);
 }
 
 // Question 3
-const listBooks = () => {
-
+const listBooks = (bookObject) => {
+  console.log(bookObject.title, bookObject.author)
 }
 
 // Question 4
