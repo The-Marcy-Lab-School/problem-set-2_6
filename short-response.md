@@ -15,7 +15,7 @@
     2. `myObject[a];`
     3. `myObject.a;`
     
-    - The first statement will raise an error because object key-value pairs are not inheritly ordered and not indexed like arrays.
+    - The second statement will raise an error because its bracket notation is not written correctly, it needs quotes around `a`.
 
 **2. What does the following code log? Why? (Be sure to run in the console after you make your prediction 😉)**
       ```javascript
