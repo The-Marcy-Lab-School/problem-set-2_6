@@ -14,7 +14,7 @@
     1. `myObject[1];`
     2. `myObject[a];`
     3. `myObject.a;`
-Answer: Number 2 will raise an error because when using bracket notation you must use a quotations. 
+Answer: Number 2 will raise an error because when using bracket notation you must use quotations. 
 
 **2. What does the following code log? Why? (Be sure to run in the console after you make your prediction 😉)**
       ```javascript
@@ -68,7 +68,7 @@ Answer: Line 39 will log `a` because [0] is the index for 'a' in `myArray`, line
 
     average(myArray); // 14... even though we expected 7. Why? 🤔
     ```
-Answer: This code only return 14 because on line 62 the function is starting the count at '-2' and not 0 so it is not starting from the first element in the array to loop through . If started at 0 this code will return '7'.
+Answer: This code only returns 14 because on line 62 the function is starting the count at '-2' and not 0 so it is not starting from the first element in the array to loop through. If started at 0 this code will return '7'.
 
 **5. What does it mean for an object property to be _enumerable_?**
 Answer: For an object to be _enumerable_ mean it have certain flags that determine their behavior meaning determine on what boolean value the flag is on will determine how your object act.
