@@ -26,23 +26,19 @@ const listBooks = (arrayIn) => {
 // Question 4
 const repeatedCharacters = (wordIn) => {
  let finalObj = {};
- wordIn.toLowerCase().split('');
- 
- 
- //for (let i = 0; i < wordIn.length; i ++) {
-   //lets check if a char is repeated and add it as a key to the obj
-   //if (wordIn[i]) {}
-   
-   
-   
-   //if we're the first char lets check it against all others
-   //for (let j = i; j < wordIn.length; j ++) {
-     //if (wordIn[j] === wordIn[i]) {
-       //finalObj[`$j`] += 1;
-     //}
-   //}
- //}
- 
+ let properCasedWord = wordIn.toLowerCase().split('');
+ console.log(properCasedWord);
+ for (let i = 0; i < properCasedWord.length;  i ++) {
+   if (!(properCasedWord[i] in finalObj)) {
+     finalObj[properCasedWord[i]] = 1;
+   } else {
+     finalObj[properCasedWord[i]] += 1;
+   }
+ }
+ for (let prop in finalObj) {
+   if (finalObj[prop] === 1) {delete finalObj[prop];}
+ }
+ return finalObj;
 }
 
 // Don't write below this line
