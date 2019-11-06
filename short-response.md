@@ -14,6 +14,9 @@
     1. `myObject[1];`
     2. `myObject[a];`
     3. `myObject.a;`
+    
+    #2 Will return a refernce error because it is not properly defined within the brackets.
+    The value is a string so using brackets would not work unless you speicify that with quotation marks like so myObject["a"] or use dot notation like so myObject.a
 
 **2. What does the following code log? Why? (Be sure to run in the console after you make your prediction 😉)**
       ```javascript
@@ -28,6 +31,8 @@
 
       console.log(person.firstName + ' ' + person.lastName);
       ```
+      The object person isnt an object we've defined so this comes back as an refernce error. Though, if you meant console.log(coolKid.firstName + ' ' + coolKid.lastName), then
+      you'd get literally everything after the colons. It will print everything inclduing the syntax to return "carmen" & "salas" because that is also apart of the value for those pairs.
 
 **3. What does the following code log? Why?**
     ```javascript
