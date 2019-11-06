@@ -22,8 +22,8 @@ const listBooks = (bookObject) => {
 // Question 4
 const repeatedCharacters = (string) => {
   let theObject = {};
-  let revisedString = string.split('');
-
+  let revisedString = string.toLowerCase().split(''); //need to lowercase to avoid 
+  
     for (let i = 0; i < revisedString.length;  i ++) {
       if ( !(revisedString[i] in theObject) ) { //if anything exists
         theObject[revisedString[i]] = 1; // doesnt repeat
