@@ -12,7 +12,7 @@ const totalProps = (object) => {
 
 // Question 3
 const listBooks = (bookObject) => {
-  let finalString = '';
+  let finalString = "";
   for (let i = 0; i < bookObject.length; i++) {
     finalString = `"${bookObject[i].title} was written by ${bookObject[i].author}."`;
     console.log(finalString);
@@ -20,10 +20,25 @@ const listBooks = (bookObject) => {
 }
 
 // Question 4
-const repeatedCharacters = () => {
+const repeatedCharacters = (string) => {
+  let theObject = {};
+  let revisedString = string.split('');
 
+    for (let i = 0; i < revisedString.length;  i ++) {
+      if ( !(revisedString[i] in theObject) ) { //if anything exists
+        theObject[revisedString[i]] = 1; // doesnt repeat
+      } 
+      
+      else {
+        theObject[revisedString[i]] = theObject[revisedString[i]] +1 ;
+      }
+    }
+
+    for (let x in theObject) {
+      if (theObject[x] === 1) {delete theObject[x];}
+    }
+    return theObject;
 }
-
 // Don't write below this line
 module.exports = {
   totalProps,
