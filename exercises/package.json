@@ -1,0 +1,28 @@
+{
+  "name": "problem-set-2_6",
+  "version": "1.0.0",
+  "description": "Introduction to Objects",
+  "main": "exercises.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Marcy-Lab-School/problem-set-2_6.git"
+  },
+  "keywords": [
+    "objects"
+  ],
+  "author": "Reuben Ogbonna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Marcy-Lab-School/problem-set-2_6/issues"
+  },
+  "homepage": "https://github.com/The-Marcy-Lab-School/problem-set-2_6#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0"
+  }
+}
