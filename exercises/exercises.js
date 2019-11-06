@@ -1,17 +1,22 @@
 // Question 1
 const log = (object) => {
-  console.log(Object.keys(object).length);
+  for (let i in object) {
+    console.log(i + ": " + object[i]);
+  }
 }
 
 // Question 2
-const totalProps = () => {
-
-  console.log(Object.keys(object1).length);
+const totalProps = (object) => {
+  return Object.keys(object).length
 }
 
 // Question 3
 const listBooks = (bookObject) => {
-  console.log(bookObject.title, bookObject.author)
+  let finalString = '';
+  for (let i = 0; i < bookObject.length; i++) {
+    finalString = `"${bookObject[i].title} was written by ${bookObject[i].author}."`;
+    console.log(finalString);
+  }
 }
 
 // Question 4
