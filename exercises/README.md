@@ -28,7 +28,7 @@
     D: 76,
     F: 64,
   }
-
+  
   totalProps(grades); // 5
   ```
 
@@ -43,14 +43,14 @@
   },
   {
       author: 'Walter Isaacson',
-      title: 'Steve Jobs,
+      title: 'Steve Jobs',
       readingStatus: true
   },
   {
       author: 'Suzanne Collins',
       title:  'Mockingjay: The Final Book of The Hunger Games', 
       readingStatus: false
-  }];
+  }]
 
   listBooks(library);
   // "The Road Ahead was written by Bill Gates."
