@@ -8,7 +8,7 @@ const log = (thingIn) => {
 // Question 2
 const totalProps = (thingIn) => {
   let counter = 0;
-  for (let prop in thingIn) {
+  for (let prop in Object.keys(thingIn)) {
     counter ++;
   }
   return counter;
