@@ -2,20 +2,20 @@
 ## Introduction to JavaScript Objects 
 
 ### Directions
-1. Fork and clone this lab
 
 **For Coding Exercises:**
 
-2. Navigate to the `exercises` directory to complete the coding exercises.
-3. Run `npm install` to load project dependencies.
-4. Complete coding exercises in the `exercises.js` file.
-5. Test your code often by running `npm test`.
-6. Check for style by running `eslint exercises.js` in the terminal.
+1. Run `npm install` from the root directory to load project dependencies.
+2. Complete coding exercises in the `exercises.js` file in the `problems` directory.
+3. Test your code often by running `npm test` from the root directory.
+4. Check for style by running `eslint problems/exercises.js` in the terminal. If you get an error `eslint: command not found`, run `npm install -g eslint` first.
 
    **Note:** You are not done with your exercises until all tests pass and there are no eslint errors.
 
 **For Short Responses:**
+1. Write your responses directly in the `short-response.md` file. 
+2. Record your answers without removing the original questions.
+3. Use complete sentences and style appropriately with markdown. As you commit and push changes, you will see your rendered markdown on GitHub.
 
-7. Write your responses directly in the `short-response.md` file. As you commit and push changes, you will see your rendered markdown on GitHub.
 
-8. When you are done with both sections. Push your final commits and open a PR.
+When you are done with both sections. Push your final commits and submit your URL through Canvas

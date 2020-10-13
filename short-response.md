@@ -31,7 +31,7 @@
     },
   };
 
-  console.log(person.firstName + ' ' + person.lastName);
+  console.log(coolKid.firstName + ' ' + coolKid.lastName);
   ```
 
 **3. What does the following code log? Why?**
