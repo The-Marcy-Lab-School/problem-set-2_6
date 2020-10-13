@@ -43,12 +43,12 @@
   },
   {
       author: 'Walter Isaacson',
-      title: 'Steve Jobs,
+      title: 'Steve Jobs',
       readingStatus: true
   },
   {
       author: 'Suzanne Collins',
-      title:  'Mockingjay: The Final Book of The Hunger Games', 
+      title:  'Mockingjay: The Final Book of the Hunger Games', 
       readingStatus: false
   }];
 
