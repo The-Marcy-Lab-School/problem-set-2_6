@@ -20,9 +20,8 @@
         "func-names": "off",
         "space-before-function-paren": "off",
         "quotes": "off",
-        "no-param-reassign": "off",
         "arrow-parens": ["error", "as-needed"],
-        "no-plusplus": "off",
-        "comma-dangle": "off"
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "comma-dangle": ["error", "only-multiline"]
     }
 }
