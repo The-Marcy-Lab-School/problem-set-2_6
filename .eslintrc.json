@@ -20,7 +20,7 @@
         "func-names": "off",
         "space-before-function-paren": "off",
         "quotes": "off",
-        "arrow-parens": ["error", "as-needed"],
+        "arrow-body-style": "off",
         "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
         "comma-dangle": ["error", "only-multiline"]
     }
