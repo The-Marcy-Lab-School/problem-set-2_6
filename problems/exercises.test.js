@@ -92,6 +92,20 @@ test('Question 3: listBooks', () => {
   expect(global.console.log).toHaveBeenCalledWith("Mockingjay: The Final Book of the Hunger Games was written by Suzanne Collins.");
 });
 
+test('Question 3: listBooks', () => {
+  global.console = { log: jest.fn() };
+
+  const library = [ 
+    {
+        author: 'William Gates',
+        title: 'The Road Ahead',
+        readingStatus: true
+    }];
+
+  exercises.listBooks(library);
+  expect(global.console.log).toHaveBeenCalledWith("The Road Ahead was written by William Gates.");
+});
+
 // Question 4
 test('Question 4: repeatedCharacters', () => {
   expect(exercises.repeatedCharacters('Programming')).toEqual({ r: 2, g: 2, m: 2 });
