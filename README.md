@@ -27,4 +27,3 @@
 3. Use complete sentences and style appropriately with markdown. As you commit and push changes, you will see your rendered markdown on GitHub.
 
 
-When you are done with both sections. Push your final commits and submit your URL through Canvas
